@@ -48,3 +48,55 @@ If you are setting this up from a fresh clone:
 ```bash
 git clone https://github.com/Mominashaik/Multi_Agent_Travel_Planner
 cd Multi_Agent_Travel_Planner
+```
+
+### 3. Create a Virtual Environment (Recommended)
+
+It's good practice to use a virtual environment to manage project dependencies.
+
+```bash
+python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 4. Install Dependencies
+
+Install all necessary Python packages using the 'requirements.txt' file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### How to Run ▶️
+
+1. Ensure Ollama server is running (as per Setup Step 1: ollama serve).
+
+2. Open the Jupyter Notebook:
+
+   ```bash
+   jupyter notebook app.ipynb
+   ```
+   
+3. Run all cells in the app.ipynb notebook. The last cell will automatically launch the Gradio web interface in your browser.
+
+### Usage 💡
+Once the Gradio application launches (it will open in your browser or provide a local URL):
+
+Enter your desired City (e.g., "Tokyo", "Rome").
+Enter your Interests as a comma-separated list (e.g., "food, history, art", "beaches, opera, nature").
+Click the Submit button.
+Your personalized 3-day travel itinerary will appear in the "Your Travel Itinerary" output area.
+
+Example 🗺️
+
+Input:
+
+City: Sydney
+Interests: beaches, opera, nature
+
+Expected Output:
+
+A detailed 3-day itinerary for Sydney focusing on beaches, the opera house, and natural attractions, structured by morning, afternoon, and evening activities.
