@@ -46,5 +46,5 @@ First, ensure you have Ollama installed and running.
 If you are setting this up from a fresh clone:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/Mominashaik/Multi_Agent_Travel_Planner
+cd Multi_Agent_Travel_Planner
