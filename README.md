@@ -1,10 +1,10 @@
-# Local Multi-Agent Travel Planner
+# Multi-Agent Travel Planner ✈️
 
 ## Project Overview
 
-The **Local Multi-Agent Travel Planner** is an intelligent application designed to generate personalized 3-day travel itineraries based on user-specified cities and interests. Leveraging a locally hosted Large Language Model (LLM) and orchestrated by a multi-agent system built with LangGraph, this tool automates the travel planning process, offering structured and detailed suggestions instantly.
+The **Multi-Agent Travel Planner** is an intelligent application designed to generate personalized 3-day travel itineraries based on user-specified cities and interests. Leveraging a locally hosted Large Language Model (LLM) and orchestrated by a multi-agent system built with LangGraph, this tool automates the travel planning process, offering structured and detailed suggestions instantly.
 
-## Features
+## Features ✨
 
 * **Personalized Itineraries:** Generates custom 3-day travel plans based on user-defined cities and interests.
 * **Structured Output:** Itineraries are presented in a clear, time-based format (Morning, Afternoon, Evening) with specific activity, attraction, and food suggestions.
@@ -12,16 +12,16 @@ The **Local Multi-Agent Travel Planner** is an intelligent application designed 
 * **Multi-Agent Workflow:** Implements a LangGraph-based workflow to manage the sequential steps of input collection and itinerary generation.
 * **Interactive User Interface:** A user-friendly web interface built with Gradio for easy input and output display.
 
-## Technologies Used
+## Technologies Used 💻
 
-* **Python**
-* **Ollama:** For running local Large Language Models.
-* **Llama3:** The specific LLM model used for content generation.
-* **LangChain:** For interacting with the LLM and prompt engineering.
-* **LangGraph:** For building and orchestrating the multi-agent workflow.
-* **Gradio:** For creating the interactive web-based user interface.
+* **Python** 🐍
+* **Ollama:** For running local Large Language Models. 🐳
+* **Llama3:** The specific LLM model used for content generation. 🧠
+* **LangChain:** For interacting with the LLM and prompt engineering. 🔗
+* **LangGraph:** For building and orchestrating the multi-agent workflow. ⚙️
+* **Gradio:** For creating the interactive web-based user interface. 🌐
 
-## Setup Instructions
+## Setup Instructions 🛠️
 
 Follow these steps to get the project running on your local machine.
 
@@ -39,7 +39,7 @@ First, ensure you have Ollama installed and running.
     ```bash
     ollama pull llama3
     ```
-    (If you prefer a different model, replace `llama3` with your desired model name, and update `llm = ChatOllama(model="llama3", ...)` in the `app.ipynb` accordingly.)
+    (If you prefer a different model, remember to update `llm = ChatOllama(model="llama3", ...)` in your `app.ipynb` file.)
 
 ### 2. Clone the Repository (Optional, if you are working from a local copy)
 
